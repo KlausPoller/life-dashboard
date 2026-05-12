@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-Item *)",
+      "PowerShell(\\(Get-Item \"C:\\\\Users\\\\enzom\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-enzom-Desktop-life-dashboard\\\\9a8d52b1-c569-4d7b-aee6-9e327604bcbb\\\\tasks\\\\bjso2us8s.output\"\\).Length; Test-Path \"C:\\\\Users\\\\enzom\\\\Desktop\\\\life-dashboard\\\\node_modules\")",
+      "PowerShell(Start-Sleep -Seconds 8; cmd /c \"netstat -ano | findstr :5173\")",
+      "PowerShell(Start-Process \"http://localhost:5173\")",
+      "PowerShell(cmd /c \"netstat -ano | findstr :5173\")"
+    ]
+  }
+}

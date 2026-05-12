@@ -1,0 +1,75 @@
+Build me a professional Life Dashboard app from scratch. This is a personal life-tracking application for daily use — it needs to feel like a premium consumer app, not a developer tool.
+
+## Project Setup
+- React + Vite
+- Tailwind CSS
+- Recharts for data visualization  
+- Framer Motion for animations
+- lucide-react for icons
+- Run all installs and start the dev server at the end
+
+## Design Philosophy
+Premium dark theme. Think Apple meets Notion meets a high-end finance app.
+- Background: #080C14 (deep near-black with blue undertone)
+- Card surfaces: #0F1624 with subtle border #1E2D45
+- Typography: "Outfit" (Google Fonts) for UI, "DM Mono" for all numbers/data
+- Accent colors: #00C2FF (cyan) for health, #F5A623 (amber) for finance, #A78BFA (violet) for habits, #34D399 (emerald) for calendar
+- Glassmorphism cards with backdrop-blur and subtle gradient borders
+- Smooth staggered fade-in animations on page load via Framer Motion
+- Micro-interactions on every button and card hover
+- NO purple gradients on white, NO generic AI aesthetics
+
+## Layout
+- Left sidebar (240px): Logo "LIFE OS", navigation with icons, today's date, small weekly score ring
+- Main content: responsive CSS grid, cards of varying sizes
+- Top bar: greeting "Guten Morgen, Enzo", current date, overall Life Score badge
+
+## 4 Main Sections (each as its own page/route):
+
+### 1. Dashboard (Overview)
+- Large Life Score ring (0-100) with animated fill, calculated from all areas
+- 4 summary cards: Health %, Finance health, Habits streak, Next event
+- Weekly activity heatmap (last 12 weeks)
+- Quick-add buttons: "+ Log Workout", "+ Add Expense", "+ Check Habit"
+
+### 2. Gesundheit & Sport
+- Animated activity rings (Steps, Sleep, Active minutes) — Apple Watch style
+- Line chart: sleep quality last 30 days
+- Bar chart: weekly workout frequency
+- Stats: current weight, resting heart rate, weekly km
+- Quick log form: workout type, duration, notes
+
+### 3. Finanzen
+- Large number: current account balance with trend arrow
+- Area chart: income vs expenses last 6 months
+- Donut chart: spending categories (Food, Transport, Shopping, Sport, etc.)
+- Recent transactions list with category icons
+- Monthly budget progress bars per category
+- Quick add: amount, category, description
+
+### 4. Ziele & Habits
+- Daily habit checklist with satisfying check animations
+- Streak display with flame icon (current + longest streak)
+- Habit completion heatmap (GitHub-style, last 90 days)
+- Goals section: title, progress bar, target date, current vs goal value
+- Weekly completion rate chart
+
+### 5. Kalender & Zeit
+- Month view calendar with colored event dots
+- Upcoming events list (next 7 days)
+- Time-blocking visualization for today
+- Weekly overview with event density
+
+## Data
+- Use realistic German dummy data throughout (names, amounts in €, German dates)
+- All data stored in localStorage with a clean data schema
+- Daily check-in modal that appears on first open each day
+
+## UX Rules
+- Every interaction must feel instant and satisfying
+- Empty states should be beautiful and encouraging, not blank
+- Forms must be minimal — never more than 3 fields visible at once
+- Mobile-responsive layout
+- Keyboard shortcuts for power users
+
+Build the complete app, all components, all pages, all dummy data. Make it extraordinary
